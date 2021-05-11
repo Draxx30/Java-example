@@ -1,8 +1,13 @@
 package com.cts.service;
 
+import com.cts.model.Model;
+
 public class SomeService {
 	public String saySomething() {
-		return "Hi Friend!!!";
+		Model model=new Model();
+		model.setSender("AJ013");
+		model.setMessage("Good Afternoon!!!");
+		return model.getSender()+" said "+model.getMessage();
 	}
 
 }
