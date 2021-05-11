@@ -7,7 +7,7 @@ public class SomeService {
 		Model model=new Model();
 		model.setSender("AJ013");
 		model.setMessage("Good Afternoon!!!");
-		return model.getSender()+" said "+model.getMessage();
+		return model.toString();
 	}
 
 }

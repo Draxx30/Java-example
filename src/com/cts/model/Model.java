@@ -15,6 +15,11 @@ public class Model {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+	@Override
+	public String toString() {
+		return sender+" said "+message;
+	}
+	
 	
 	
 }
